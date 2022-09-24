@@ -70,7 +70,6 @@ function App() {
   } else if (mediaUrl) {
     return (
       <StickyScrollingContainer mediaRect={mediaRect} shouldUnmount={resetApp}>
-        <CopyToClipboard content={mediaUrl} />
         <Frame>
           <Buttons url={mediaUrl} />
         </Frame>
